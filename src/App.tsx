@@ -80,7 +80,7 @@ const App: React.FC = () => {
     initial={{ x: "100%" }}
     animate={{ x: "-100%" }}
     transition={{
-      duration: 20,
+      duration: 27,
       repeat: Infinity,
       ease: "linear",
     }}
