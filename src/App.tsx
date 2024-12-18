@@ -6,6 +6,7 @@ import vision from "./vision.png"
 import mj from "./mj.png"
 import chatvat from "./chatvat.png"
 import CursorFollower from "./CursorFollower";
+import ProfessionalExperience from "./PE";
 
 const App: React.FC = () => {
   return (
@@ -70,6 +71,7 @@ const App: React.FC = () => {
     </div>
   </div>
 </section>
+<ProfessionalExperience/>
       {/* Skills Section */}
       <section className="py-10 px-5 overflow-hidden">
   <h2 className="text-3xl font-semibold text-center mb-5">Skills</h2>
