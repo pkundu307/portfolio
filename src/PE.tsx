@@ -9,7 +9,7 @@ const ProfessionalExperience = () => {
           {[
             {
               title: "Software Engineer (Numenor)",
-              date: "10/2023 – Present",
+              date: "02/2025 – Present",
               location: "Remote, India",
               description: "As a softeare engineer I am responsible for creating and managing apis (FastApi ,python) and connection between all kind of Databases(sql,no sql, graph database) required for ongoing project and fixing existing ui along with implementing new features(React +ts). Top of that I also take care of the deployment and ci/cd pipeline"
 
