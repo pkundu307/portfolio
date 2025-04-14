@@ -8,8 +8,17 @@ const ProfessionalExperience = () => {
         <div className="space-y-8 pl-6 border-l-4 border-blue-400">
           {[
             {
+              title: "Software Engineer (Numenor)",
+              date: "10/2023 – Present",
+              location: "Remote, India",
+              description: "As a softeare engineer I am responsible for creating and managing apis (FastApi ,python) and connection between all kind of Databases(sql,no sql, graph database) required for ongoing project and fixing existing ui along with implementing new features(React +ts). Top of that I also take care of the deployment and ci/cd pipeline"
+
+
+            }
+            ,
+            {
               title: "Zauvijek, Full Stack Developer",
-              date: "03/2024 – present",
+              date: "03/2024 – 02/2025",
               location: "Noida, India",
               description: "As a Full Stack Developer proficient in React, Node.js, Nest.js, and Electron, specializing in desktop Windows application development, my responsibilities span from frontend UI/UX design to backend architecture. I am tasked with crafting intuitive user interfaces, implementing robust backend systems, and ensuring seamless cross-platform compatibility using Electron."
             },

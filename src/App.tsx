@@ -91,12 +91,17 @@ const App: React.FC = () => {
         className="flex items-center space-x-8"
       >
         {[
+          {name:"Neo4j graph db",icon:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/neo4j/neo4j-original.svg"},
+          { name: "PostgreSQL", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" },
+          { name: "FastAPI", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" },
+          { name: "Python", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
+          {name:"Timescale db",icon:"https://s3.amazonaws.com/assets.timescale.com/timescale-web/brand-images/badge/yellow/logo-yellow.png"},
+          { name: "GraphQL", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" },
           { name: "Java", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" },
           { name: "Node.js", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" },
           { name: "Material UI", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg" },
-          { name: "System Design", icon: "/path/to/system-design-icon.png" }, // Replace with custom icon
+          { name: "System Design", icon: "https://cdn-icons-png.freepik.com/256/2452/2452663.png?semt=ais_hybrid" }, // Replace with custom icon
           { name: "Django", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" },
-          { name: "DSA (Java)", icon: "/path/to/dsa-icon.png" }, // Replace with custom icon
           { name: "MongoDB", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" },
           { name: "GIT", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
           { name: "Electron", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/electron/electron-original.svg" },
@@ -260,7 +265,7 @@ const App: React.FC = () => {
         </p>
         <p className="text-xl">Phone: <a href="tel:+918420962599" className="text-blue-300">8420962599</a></p>
         <p className="text-xl">Email: <a href="mailto:pkundu307@gmail.com" className="text-blue-300">pkundu307@gmail.com</a></p>
-        <p className="text-xl">Location: Kolkata, India</p>
+        <p className="text-xl">Location: Kolkata, India <i>({"CURRENT-> Trivandrum,Kerala"}) </i></p>
       </div>
     </section>
   </motion.div>
