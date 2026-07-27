@@ -78,7 +78,7 @@ const ProfessionalExperience: React.FC = () => {
           {/* Timeline Line */}
           <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-yellow-500 via-orange-500 to-yellow-500 hidden md:block" />
 
-          {experiences.map((exp, index) => (
+          {experiences.map((exp) => (
             <motion.div
               key={exp.company}
               className="relative pl-0 md:pl-24 mb-8"

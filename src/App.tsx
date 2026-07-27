@@ -516,7 +516,7 @@ const App: React.FC = () => {
                   {category}
                 </h3>
                 <div className="space-y-3">
-                  {skills.map((skill, index) => (
+                  {skills.map((skill) => (
                     <motion.div
                       key={skill.name}
                       className="flex items-center gap-3 p-2 hover:bg-yellow-500/10 rounded-lg transition-colors cursor-pointer group"
@@ -559,7 +559,7 @@ const App: React.FC = () => {
             viewport={{ once: true }}
           >
             <AnimatePresence>
-              {projects.map((project, index) => (
+              {projects.map((project) => (
                 <motion.div
                   key={project.title}
                   className="glass rounded-xl overflow-hidden card-hover border border-yellow-500/20"
