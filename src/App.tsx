@@ -52,7 +52,7 @@ const projects: {
     text: "End-to-end customizable e-commerce platform with CRM and a transparent marketplace model. Seller vs admin RBAC, seller onboarding workflows and AI-powered shopping and selling features, from strategy to deployment.",
     tags: ["RBAC", "CRM", "AI"],
     accent: "c",
-    link: { href: "https://jotosop.in/", text: "Visit jotosop.in →" },
+    link: { href: "https://jottosop.in/", text: "Visit jotosop.in →" },
   },
   {
     label: "Security tooling",
